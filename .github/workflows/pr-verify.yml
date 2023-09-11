@@ -32,6 +32,6 @@ jobs:
       
     # deploy the artifact to gihub registry
     - name: Publish to GitHub Packages Apache Maven
-      run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
+      run: mvn deploy 
       env:
         GITHUB_TOKEN: ${{ secrets.APP_TOKEN }}    
