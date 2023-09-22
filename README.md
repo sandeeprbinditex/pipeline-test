@@ -1,2 +1,2 @@
 # pipeline-test
-A demo project to learn and test github actions
+A demo project to learn and test github actions.
